@@ -3,7 +3,7 @@
 ## Overview
 The goal of this project is to examine if there is bias evident in the reviews of products provided to members of the Amazon Vine program. More specifically, we are looking to see if being a paid review will impact the percentage of 5 star reviews.
 
-For this analysis, books were the selected dataset. Then, using PySpark, a new dataframe was made with only the review id, the star rating given, how many "helpful" votes the review received, how many total votes the review received, whether the review was from the vine program, and whether or not the review came from a verified purchase. Using this, the overall combined reviews, as well as the total paid and unpaid five star reviews were pulled from the data, and the percentage of five star reviews was calculated.
+For this analysis, books were the dataset that was selected. Then, using PySpark, a new dataframe was made with only the review id, the star rating given, how many "helpful" votes the review received, how many total votes the review received, whether the review was from the vine program, and whether or not the review came from a verified purchase. Using this, the overall combined reviews -- the total paid and unpaid five star reviews were pulled from the data -- and the percentage of five star reviews was calculated.
 
 ## Results
 ![Images/total_reviews.png](Images/total_reviews.png)
